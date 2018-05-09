@@ -1,0 +1,417 @@
+
+header{
+  border-radius: 5px;
+  font-family: "Comic Sans MS";
+  background: radial-gradient(circle,#19005a,#2d966e);
+  border: 2px #2d966e dotted;
+  padding: 25px 50px 25px 50px;
+  margin: 25px 50px 25px 50px;
+  /*imported from html document*/color: #2d966e;
+  /*imported from html document*/background-color: #19005a;
+  /*background-image: url("./audio and other images/2DLogo.jpg");*/
+  /*background-size: 50;*/
+  /*background-repeat: no-repeat;*//*round;*/ 
+  /*background-position: center;*/
+  box-shadow: 5px -2px 5px #2d966e; /*step 7 ??*/
+  text-align: center;
+}
+
+header img{
+  width: 50%;
+  height: 50%;
+}
+
+
+
+nav a, body a{
+  border-radius: 5px;
+  /*font-size: 40;*/
+  text-decoration: none;
+}
+nav a:link, body a:link{
+  color: #19005a;
+}
+nav a:visited, body a:visited{
+  color: #2d966e;
+}
+nav a:hover, body a:hover{
+  border-radius: 5px;
+  background-color: #19005a;
+  text-decoration: none;
+  color: #2d966e;
+  transition: background-color 1.5s linear;
+}
+nav ul{
+  border-radius: 5px;
+  font-size: 20px;
+  /*imported from html document*/background-color: #2d966e;
+  list-style-image: url("images/list markings.png");/*./list markings.png*/
+  list-style-position: inside;
+  background: radial-gradient(circle,#19005a,#2d966e);
+  border: 2px #2d966e dotted;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  /*imported from html document*/color: #2d966e;
+  /*imported from html document*/background-color: #19005a;
+  background-size: 100%;
+  background-repeat: repeat;/*round;*/ 
+  background-position: 0% 0%;
+  box-shadow: 5px -2px 5px #2d966e; /*step 7 ??*/  
+  text-align: justify;
+}
+
+/*page about,home page:*/
+#_2dLogo img{
+  width: 50%;
+  height: 50%;
+}
+/*about page:*/
+#_goldfish img{
+  display: block;
+  margin: 0 auto;
+  height: 10%;
+  width: 10%;
+}
+#_goldfish p{
+  text-align: center;
+}
+#_fishtank img{
+  display: block;
+  margin: 0 auto;
+  height: 10%;
+  width: 10%;
+}
+#_fishtank p{
+  text-align: center;
+}
+#_myPortrait{
+  text-align: left;
+}
+#_myPortrait img{
+  display: block;
+  margin: 0 auto;
+  height: 10%;
+  width: 10%;
+  transform: rotate(8deg) scale(2);
+}
+#_aboutCanvas{
+  display: block;
+  margin: 0 auto;
+  width: 33%;
+  height: 33%;
+  border:1px solid #2d966e;
+}
+/*home page:*/
+
+main{
+  opacity: .85;
+  padding: 1px 20px 20px 30px;
+  display: block;
+  background-color: #1820c0;
+  margin-left: 190px;
+  margin: 0% 5%;
+}
+body{
+  opacity: .85;
+  font-family: "Comic Sans MS";
+  color: #19005a;
+  background-image: url("./audio_and_other_images/Background-Image.jpg");/*Background-Original.jpg");*/
+  /*currently not correct, but displays the background.*/
+  margin: 0% 5%;
+  height: auto; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 33%;
+  text-shadow: 0px -1px 1px #abcdef;
+  background-color: #1820c0;
+}
+
+
+
+table{
+  width: 100%;
+  font-family: "Comic Sans MS";
+  /*background-color: #2d966e;*/
+  border: 2px #2d966e dotted;
+  border-radius: 5px;
+  /*padding: 25px 50px 25px 50px;*/
+  /*margin: 25px 50px 25px 50px;*/
+  /*height: auto;*/ 
+  /*background: radial-gradient(circle,#19005a,#2d966e);*/
+  color: #2d966e; 
+  font-weight: bold;
+  font-size: 100%;
+  text-shadow: 0px -1px 1px #abcdef;
+  background-color: #19005a;
+  text-align:center;
+}
+table caption{
+  font-family: "Comic Sans MS";
+  color: #19005a;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 100%;
+  background-color: #2d966e;
+  opacity: .75;/*.66*/
+  text-shadow: 0px -1px 1px #abcdef;
+}
+table td, table tr, table th{
+  border: 1px solid #2d966e;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+form{
+  font-family: "Comic Sans MS";
+  border: 2px #2d966e dotted;
+  padding: 25px 50px 25px 50px;
+  margin: 2.5px 5.0px 2.5px 5.0px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 100%;
+  /*imported from html document*/color: #2d966e;
+  /*imported from html document*/background-color: #19005a;
+  text-shadow: 0px -1px 1px #abcdef;
+}
+
+audio{
+  height: 32px;
+  margin: 10px auto;
+  width: 100%;
+  display: table;
+}
+
+video, iframe{
+  opacity: 1.00;
+  height: 275px;
+  width: 490px;
+  display: block;
+  margin: 0 auto;
+}
+#videoSummary{
+  text-align: center;
+}
+
+caption, input[type=text], input[type=password], input[type=checkbox], input[type=radio], textarea, select, input[type=color], fieldset, input[type=range], input[type=number], input[type=date], input[type=reset], input[type=submit], input[type=hidden], form table, form option{
+  font-family: "Comic Sans MS";
+  border: 2px #2d966e dotted;
+  border-radius: 5px;
+  padding: 2.5px 5px 2.5px 5px;
+  margin: 2.5px 5.0px 2.5px 5.0px;
+  /*background: radial-gradient(circle,#19005a,#2d966e);*/
+  color: #2d966e; 
+  resize: both;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 100%;
+  /*imported from html document*/color: #2d966e;
+  /*imported from html document*/background-color: #19005a;
+  text-shadow: 0px -1px 1px #abcdef;
+  margin: 0;
+}
+form ::placeholder{
+  color: #2d966e;
+}
+form table td, form table tr, form table th, form option{
+  border-style: none;
+  text-align: left;
+  
+}
+form table{
+  width: inherit;
+}
+input[type=range]{
+  width: 260px;
+}
+
+h1,h2,h3{
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 100%;
+  background-color: #2d966e;
+  opacity: .75;/*.66*/
+}
+
+h1 a{
+  color: #19005a;
+  border-radius: 5px;
+  /*font-size: 40;*/
+  text-decoration: none;
+}
+/*h1 a:link{
+  /*color: #19005a;*/
+/*}*/
+h1 a:visited{
+  color: #19005a;
+}
+p a{
+  color: #2d966e;
+  /*font-size: 40;*/
+  border-radius: 5px;
+  text-decoration: none;
+}
+h1 hover{
+  font-family: "Comic Sans MS";
+  border: 2px #2d966e dotted;
+  padding: 25px 50px 25px 50px;
+  margin: 2.5px 5.0px 2.5px 5.0px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 100%;
+  /*imported from html document*/color: #19005a;
+  /*imported from html document*/background-color: #19005a;
+  text-shadow: 0px -1px 1px #abcdef;
+}
+
+
+
+
+
+p{
+  border-radius: 5px;
+  /*imported from html document*/color: #2d966e;
+  /*imported from html document*/background-color: #19005a;
+}
+
+footer{
+  border-radius: 5px;
+  background: radial-gradient(circle,#19005a,#2d966e);
+  border: 2px #2d966e dotted;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  /*imported from html document*/color: #2d966e;
+  /*imported from html document*/background-color: #19005a;
+  /*background-size: 20% 50;*/
+  /*background-repeat: no-repeat;*//*round;*/ 
+  /*background-position: center;*/
+  box-shadow: 5px -2px 5px #2d966e; /*step 7 ??*/
+  text-align: center;
+}
+footer img{
+  float: left;
+  width: 68px;
+  height: 68px;
+}
+
+
+#gallery{
+  position: absolute;
+  opacity: 1;
+}
+#gallery ul{
+  list-style-type: none;
+  width: 300px; 
+  opacity: 1;
+}
+#gallery li{
+  display: inline-block; 
+  float: left;
+	padding: 10px; 
+	opacity: 1;
+}
+#gallery img{
+  border-style: none;
+  opacity: 1;
+}
+#gallery a{
+  text-decoration: none;
+  font-style: italic;  
+  color: #2d966e; 
+  opacity: 1;
+}
+#gallery span{
+  position: absolute;
+  left: -1000px;
+  opacity: 1;
+  transition: opacity 1s ease-in-out; 
+}
+#gallery a:hover span{
+  position: absolute;
+	top: 16px;
+	left: 320px; 
+  text-align: center; 
+  opacity: 1;
+}
+figure{
+  position: absolute;
+	left: 280px; 
+	text-align: center; 
+  opacity: 1;
+}
+
+/*mobile and desktop selectors:*/
+#mobile{
+  display: none;
+}
+#desktop{
+  display: inline;
+}
+
+
+@media only screen and (max-width: 37.5em){
+  main{
+    padding: 0.1em 1em;
+    font-size: 90%;
+  }
+  header{
+    padding-top: 1em;
+  }
+  h1{
+    font-size: 1.5em;
+  }
+  nav{
+    padding: 0;
+  }
+  nav li{
+    display: block;
+    margin: 0;
+    border-bottom: 2px solid #2d966e;
+    border: 2px #2d966e dotted;
+  }
+  nav a{
+    display: block;
+  }
+  #wrapper{ /*#YOUR_CUSTOM_ID{*/
+    background-image: none;
+    height: 0;
+  }
+  #mobile{
+    display: inline;
+  }
+  #desktop{
+    display: none;
+  }
+}
+@media only screen and (max-width: 64em){
+  body{
+    margin: 0;
+    background-color: #1820c0;
+  }
+  #wrapper{ /*#YOUR_CUSTOM_ID{*/
+    min-width: 0;
+    width: auto;
+    box-shadow: none;
+  }
+  #wrapper{ /*#YOUR_CUSTOM_ID{*/
+    margin-left: 0;
+    height: 200px;
+  }
+  main{
+    margin-left: 0;
+  }
+  nav{
+    float: none;
+    width: auto;
+    padding: .5em;
+    text-align: center;
+  }
+  nav li{
+    display: inline;
+    padding: 0.25em 0.75em;
+  }
+  footer{
+    margin-left: 0;
+  }
+}
